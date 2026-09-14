@@ -23,13 +23,13 @@
     font-family: "Verdana";
 }
 
-#do {
+#black {
     color: rgb(0, 0, 0);
     border: 4px dotted rgb(0, 0, 0);
     font-size: 24px;
 }
 
-#dor {
+#orange {
     color: rgb(0, 0, 0);
     font-family: "Amatic SC", cursive;
     border: 4px dotted rgb(255, 81, 0);
