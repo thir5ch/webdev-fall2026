@@ -1,0 +1,17 @@
+
+#activities {
+    color: rgb(8, 0, 165);
+    background-color: yellow;
+}
+
+#goals {
+    color: rgb(4, 67, 254);
+    background-color: black;
+}
+
+.important {
+    font-weight: 900;
+    font-size: large;
+    
+}
+
