@@ -1,0 +1,70 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #9398AD;
+  color: #17255A;
+  padding: 20px;
+  text-align: left;
+}
+
+nav {
+  background-color: #ABAFBD;
+  padding: 10px;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin-right: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.container {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ABAFBD;
+  color: #17255A;
+  font-family: "Faqro Extended Round" ;
+  text-align: center;
+}
+
+
+.title {
+    font-family: "Faqro Extended Round", sans-serif;
+    text-align: center;
+
+}
+
+#ts {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: large;
+}
+
+#about {
+  background-color: #ABAFBD;
+  color: white;
+  font-family: "Times New Roman", Time, serif;
+  font-size: large;
+}
+
+#sc {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: large;
+}
