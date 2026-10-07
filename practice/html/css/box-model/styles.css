@@ -1,0 +1,17 @@
+div {
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid rgb(19, 5, 217);
+  padding: 50px;
+  margin: 20px;
+  box-sizing: border-box;
+}
+
+div#third {
+    background-color: pink;
+    width: 400px;
+    border: 30px dashed rgb(253, 125, 147);
+    padding: 30px;
+    margin: 50px;
+    box-sizing: border-box;
+}
