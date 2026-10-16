@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+
+.date {
+    background-color: rgb(244, 181, 129);
+    border: white 3px solid;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 5px;
+    border-radius: 8px;
+
+
+}
+
+.day {
+    background-color: white;
+    border: white 7px solid;
+    text-align: center;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 0.3fr 1fr 1fr 1fr 1fr 1fr;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+
+}
+
+.grid-container {
+    background-color: rgb(255, 255, 255);
+    border-style: 3px solid white;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 0.3fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 3px;
+    row-gap: 1px;
+
+
+}
+
