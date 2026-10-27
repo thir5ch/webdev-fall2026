@@ -1,0 +1,37 @@
+    .container {
+      /* Fixed container size so there is free space to work with */
+      width: 600px;
+      height: 400px;
+      border: 3px solid #333;
+      display: grid;
+
+      /* Fixed column & row sizes, smaller than the container. */
+      /* The leftover space is what justify-content / align-content distribute. */
+      grid-template-columns: repeat(3, 150px);
+      grid-template-rows: repeat(2, 100px);
+      gap: 10px;
+
+      /* Properties to test are below! */
+      /* Values to try:
+            -content: start, end, center, space-between, space-around, space-evenly
+            -items: start, end, center, stretch */
+
+      /* What do these do? */
+      justify-content: end; 
+      align-content: end;
+
+      /* What do these do? */
+      justify-items: end; 
+      align-items: end;
+    }
+
+    .item {
+      display: grid;
+      height: 30px;
+      width: 40px;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-family: sans-serif;
+      font-weight: bold;
+    }
