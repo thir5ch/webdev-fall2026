@@ -177,7 +177,7 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
-
+ /* sets the images width and height. */
 .card img {
     width: 56px;
     height: 56px;
