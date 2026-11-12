@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Example</title>
+  <script src="script.js"></script>
+</head>
+<body>
+
+    <h2>Please Log In</h2>
+
+    <!-- The "id" gives each element a name so JavaScript can find it later. -->
+    <label for="username">Username:</label>
+    <input id="username" type="text">
+    <br><br>
+
+    <label for="password">Password:</label>
+    <!-- type="password" hides what the user types with dots. -->
+    <input id="password" type="password">
+    <br><br>
+
+    <!-- onclick="checkLogin()" means when this button is clicked, run the checkLogin function in script.js. -->
+    <button onclick="checkLogin()">Login</button>
+
+    <!-- This paragraph starts empty. JavaScript will put the result message here. -->
+    <p id="message"></p>    
+
+</body>
+</html>
