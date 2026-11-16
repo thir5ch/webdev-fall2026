@@ -7,6 +7,7 @@ function checkName() {
     let enteredMonth = document.getElementById("month").value;
     let enteredAge = Number(document.getElementById("age").value);
     let enteredAnimal = document.getElementById("animal").value;
+    let message = document.getElementById("message");
 
     // Step 2: Find the paragraph where we will show the result.
     let result = document.getElementById("result");
@@ -26,6 +27,7 @@ function checkName() {
     }
     else {
         message.textContent = "Please enter a month.";
+        enteredMonth = "";
     }
 
     if(enteredAge >=1 && enteredAge < 20) {
