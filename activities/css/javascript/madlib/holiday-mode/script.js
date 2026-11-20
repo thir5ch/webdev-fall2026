@@ -1,4 +1,6 @@
 // STEP 1: Track whether holiday mode is on
+const music = new Audio("birds.mp3");
+const music2 = new Audio("lobby.mp3");
 
 let holiday = "off"
 // STEP 2: Create the function that runs when the button is clicked
@@ -17,6 +19,7 @@ function toggle () {
     let three = document.getElementById("3");
     let four = document.getElementById("4");
     let menu = document.getElementById("menu");
+
 
     if (holiday == "off") {
         header.style.backgroundColor = "green"
@@ -40,6 +43,10 @@ function toggle () {
         menu.textContent = "Special Earth Day Menu!"
         heading.style.fontFamily = "Times New Roman"
         menu.style.fontFamily = "Times New Roman"
+        document.body.style.backgroundImage = "linear-gradient(180deg, lightblue, blue)";
+        music.play()
+        music2.pause()
+        music2.currentTime = 0;
 
     }
     else  {
@@ -65,6 +72,10 @@ function toggle () {
         heading.style.fontFamily = "Arial"
         menu.style.fontFamily = "Arial"
         wtext.style.color = "#333333"
+        document.body.style.backgroundImage = ""
+        music2.play()
+        music.pause()
+        music.currentTime = 0;
     
     }
 

@@ -1,0 +1,24 @@
+#result {
+  white-space: pre-line; /* Preserves \n line breaks while collapsing extra spaces */
+  color: pink;
+  font-weight: bold;
+}
+
+#header {
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+#label {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#label {
+    background-color: pink;
+    display: inline-block;
+}
+
+#people {
+    color: pink;
+}
